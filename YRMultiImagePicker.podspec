@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "YRMultiImagePicker"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of YRMultiImagePicker."
+  spec.summary      = "Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera.Using YRMultiImagePicker you can able to choose multiple image from Gallery"
   spec.description  = "Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera.Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera.."
   
 
@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
 
 
   spec.source_files  = "YRMultiImagePicker"
-  spec.swift_version = "5.0"
+  spec.swift_version = "4.2"
   
 
 
