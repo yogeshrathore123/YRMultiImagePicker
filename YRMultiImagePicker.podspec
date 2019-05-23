@@ -19,35 +19,17 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera."
   spec.description  = "Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera.Using YRMultiImagePicker you can able to choose multiple image from Gallery or Camera.."
-  
-
 
   spec.homepage     = "https://github.com/yogeshrathore123/YRMultiImagePicker"
 
-
-
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  
+  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" } 
   spec.author             = { "Yogesh rathore" => "yogeshrathore251@gmail.com" }
- 
-
-
    spec.platform     = :ios, "12.0"
-
-
-
   spec.source       = { :git => "https://github.com/yogeshrathore123/YRMultiImagePicker.git", :tag => "#{spec.version}" }
-
-
-
-  spec.source_files  = "YRMultiImagePicker"
+  spec.source_files = "YRMultiImagePicker/**/*.{swift}"
+  spec.resources = "YRMultiImagePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   spec.swift_version = "4.2"
   
-
-
-
   
 end
